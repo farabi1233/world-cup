@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
+
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
@@ -18,7 +21,8 @@ a {
     margin: 16px;
     border-radius: 8px;
 }
-.view-more-btn{
+
+.view-more-btn {
     width: 187px;
     height: 46px;
     background: #DD0000;
@@ -90,6 +94,15 @@ hr {
     color: #FFFFFF;
 }
 
+.banner-details button:hover {
+
+    background: #f51d1d;
+    border-radius: 5px;
+    font-size: 21px;
+    box-shadow: 0 8px 16px 0 rgba(155, 122, 122, 0.192);
+
+}
+
 .banner-card .banner-thumbnail {
     text-align: center;
     padding-top: 22px;
@@ -129,6 +142,12 @@ hr {
     color: #FFFFFF;
 }
 
+.btn-active:hover {
+    background: #f51d1d;
+    box-shadow: 0 8px 16px 0 rgba(155, 122, 122, 0.192);
+
+}
+
 .btn-inactive {
     padding: 12px;
     margin: 12px;
@@ -140,6 +159,11 @@ hr {
     line-height: 23px;
     text-align: center;
     color: black;
+}
+.btn-inactive:hover {
+    background: #DD0000;
+    box-shadow: 0 8px 16px 0 rgba(155, 122, 122, 0.192);
+    color: #FFFFFF;
 }
 
 /* body match  */
@@ -153,6 +177,10 @@ hr {
     margin: 12px;
     border-radius: 1rem;
     border: 1px solid #d3d0d0;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card .logo {
@@ -199,8 +227,25 @@ hr {
     margin-bottom: ;
 }
 
+.blog-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
 .blog-card .banner img {
     width: 100%;
+}
+
+.img-hover-zoom {
+    /* height: 120px;  */
+    overflow: hidden;
+}
+
+.img-hover-zoom img {
+    transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+    transform: scale(1.5);
 }
 
 .blog-card .title {
@@ -281,6 +326,12 @@ footer .menus a {
     line-height: 24px;
     font-feature-settings: 'liga' off;
     color: #B9B9B9;
+
+}
+
+footer .menus a:hover {
+
+    color: #ffffff;
 
 }
 
@@ -489,8 +540,8 @@ footer .menus a {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .view-more-btn{
-        
+    .view-more-btn {
+
         display: block;
     }
 
@@ -531,7 +582,7 @@ footer .menus a {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    
+
 
     .menue-box {
         background: #ffffff;
