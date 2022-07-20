@@ -451,14 +451,14 @@ footer .menus a {
 
     }
 
-    .matches {
+    /* .matches {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-    }
+    } */
 
     .matches {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .menue-box {
@@ -531,10 +531,7 @@ footer .menus a {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .matches {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
+    
 
     .menue-box {
         background: #ffffff;
